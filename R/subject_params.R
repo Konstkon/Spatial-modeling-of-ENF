@@ -1,6 +1,4 @@
 #impotring libraries and code####
-
-setwd("C:/Users/konkons/Desktop/ENF/ENFdata/Konstantinos") # cHANGE THE PATH
 source('./exscript.R') #load data,and libaries
 source('./Helpfunctions.R') #load functions
 source('./Angles_Lengths.R')
