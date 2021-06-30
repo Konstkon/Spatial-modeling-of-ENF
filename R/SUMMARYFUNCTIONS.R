@@ -1,7 +1,9 @@
 library(latex2exp)
 source('K_overall_help.R')
-direction_list=readRDS('./datarelated/model_params/normal_directions_noc.RDA')
-direction_list_mild = readRDS('./datarelated/model_params/mild_directions_noc.RDA')
+
+#Those data are unfortunately not provided
+direction_list = readRDS('normal_directions_noc.RDA')
+direction_list_mild = readRDS('mild_directions_noc.RDA')
 
 #GETS NOC DIRECTION
 get_direction_to_open_space <-function(Basepoints){
