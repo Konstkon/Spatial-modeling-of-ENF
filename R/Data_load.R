@@ -1,12 +1,6 @@
-setwd("C:/Users/konkons/Desktop/ENF/ENFdata/Konstantinos") #Change path
 #Load some code
 source('./Helpfunctions.R')  # CONTAINS HELP FUNCTIONS CREATED TO ANALYSE THE DATA
-
-
-
-
 #Load libraries
-
 library(extraDistr)
 library(spptest)
 
